@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator at home</title>
+    <style>
+        body {
+            background-color: pink;
+            
+        }
+
+        h1 {
+
+            color: black;
+        }
+
+        #szg {
+            width: 80%;
+            height:200px;
+            margin: auto;
+            background-color: rgb(245, 210, 210);
+            text-align: center;
+            color:black;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+        }
+
+        input {
+            background-color: rgb(212, 120, 120);
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="szg">
+        <h1>Calculator</h1>
+        <input type="number" id="bevitel1">
+        <br>
+        <input type="number" id="bevitel2">
+        <br>
+        <button id="osszeadas">+</button>
+        <button id="kivonas">-</button>
+        <button id="szorzas">*</button>
+        <button id="osztas">/</button>
+        <p>Eredmény:</p>
+        <p id="ide"></p>
+
+    </div>
+
+    <script src="szamologep.js"></script>
+</body>
+
+</html>
